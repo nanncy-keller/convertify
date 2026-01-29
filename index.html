@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+ <link rel="alternate icon" href="favicon.ico" type="image/x-icon">
+  <title>Convertify - Neon Edition</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,400&family=Orbitron:wght@400;500;600;700;800&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Glowing orbs -->
+  <div class="glow-orb orb1"></div>
+  <div class="glow-orb orb2"></div>
+  <div class="glow-orb orb3"></div>
+
+  <!-- Scanline effect -->
+  <div class="scanline"></div>
+
+  <div class="container">
+    <header class="header">
+      <div class="logo-title">
+        <span class="logo-icon">↔</span>
+        <h1>CONVERTIFY</h1>
+      </div>
+      <p class="slogan">Simple conversions. Real understanding.</p>
+    </header>
+
+    <main class="neon-card">
+      <h2 class="card-title">UNIT CONVERTER</h2>
+
+      <div class="input-wrapper">
+        <label class="input-label">Enter Value</label>
+        <input 
+          type="number" 
+          id="valueInput" 
+          placeholder="Enter a value"
+        >
+      </div>
+
+      <div class="select-group">
+        <div class="input-wrapper" style="margin: 0;">
+          <label class="input-label">From</label>
+          <select id="fromUnit">
+            <option value="ft">Feet (ft)</option>
+            <option value="cm">Centimeters (cm)</option>
+            <option value="m">Meters (m)</option>
+            <option value="in">Inches (in)</option>
+            <option value="km">Kilometers (km)</option>
+            <option value="mi">Miles (mi)</option>
+            <option value="lb">Pounds (lb)</option>
+            <option value="kg">Kilograms (kg)</option>
+            <option value="c">Celsius (°C)</option>
+            <option value="f">Fahrenheit (°F)</option>
+          </select>
+        </div>
+
+        <span class="arrow-icon">→</span>
+
+        <div class="input-wrapper" style="margin: 0;">
+          <label class="input-label">To</label>
+          <select id="toUnit">
+            <option value="cm">Centimeters (cm)</option>
+            <option value="ft">Feet (ft)</option>
+            <option value="m">Meters (m)</option>
+            <option value="in">Inches (in)</option>
+            <option value="km">Kilometers (km)</option>
+            <option value="mi">Miles (mi)</option>
+            <option value="kg">Kilograms (kg)</option>
+            <option value="lb">Pounds (lb)</option>
+            <option value="c">Celsius (°C)</option>
+            <option value="f">Fahrenheit (°F)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="result-box">
+        <p id="resultValue" class="result-placeholder">Result will appear here</p>
+      </div>
+
+      <div class="edu-box" id="eduText"></div>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 NANCY KELLER • EDUCATIONAL PROJECT</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
