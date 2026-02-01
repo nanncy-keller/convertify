@@ -1,10 +1,16 @@
-<p align="center">
-  <img src="picture.png" alt="Convertify Preview" width="600">
-</p>
-
 # ↔️ CONVERTIFY - Neon Edition
 
 Welcome to **Convertify**! 🌟 This is a special unit converter project with a futuristic neon aesthetic, created to practice web development fundamentals while solving a nostalgic educational challenge.
+<br>
+<br>
+<p align="center">
+  <img src="picture.png" alt="Convertify Preview" width="600">
+</p>
+<p align="center">
+  <a href="https://nanncy-keller.github.io/convertify/" target="_blank">
+    🚀 <strong>Click here to try Convertify Live!</strong>
+  </a>
+</p>
 
 ---
 
